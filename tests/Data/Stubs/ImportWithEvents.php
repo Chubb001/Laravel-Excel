@@ -1,13 +1,13 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace Chubb001\Excel31\Tests\Data\Stubs;
 
-use Maatwebsite\Excel\Events\AfterSheet;
-use Maatwebsite\Excel\Events\AfterImport;
-use Maatwebsite\Excel\Events\BeforeSheet;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Events\BeforeImport;
+use Chubb001\Excel31\Events\AfterSheet;
+use Chubb001\Excel31\Events\AfterImport;
+use Chubb001\Excel31\Events\BeforeSheet;
+use Chubb001\Excel31\Concerns\Importable;
+use Chubb001\Excel31\Concerns\WithEvents;
+use Chubb001\Excel31\Events\BeforeImport;
 
 class ImportWithEvents implements WithEvents
 {

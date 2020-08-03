@@ -1,15 +1,15 @@
 <?php
 
-namespace Maatwebsite\Excel\Factories;
+namespace Chubb001\Excel31\Factories;
 
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Reader\Csv;
-use Maatwebsite\Excel\Files\TemporaryFile;
+use Chubb001\Excel31\Files\TemporaryFile;
 use PhpOffice\PhpSpreadsheet\Reader\IReader;
 use PhpOffice\PhpSpreadsheet\Reader\Exception;
-use Maatwebsite\Excel\Concerns\MapsCsvSettings;
-use Maatwebsite\Excel\Concerns\WithCustomCsvSettings;
-use Maatwebsite\Excel\Exceptions\NoTypeDetectedException;
+use Chubb001\Excel31\Concerns\MapsCsvSettings;
+use Chubb001\Excel31\Concerns\WithCustomCsvSettings;
+use Chubb001\Excel31\Exceptions\NoTypeDetectedException;
 
 class ReaderFactory
 {

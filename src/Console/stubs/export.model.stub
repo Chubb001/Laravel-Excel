@@ -3,7 +3,7 @@
 namespace DummyNamespace;
 
 use DummyFullModelClass;
-use Maatwebsite\Excel\Concerns\FromCollection;
+use Chubb001\Excel31\Concerns\FromCollection;
 
 class DummyClass implements FromCollection
 {

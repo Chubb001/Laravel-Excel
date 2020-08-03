@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Mixins;
+namespace Chubb001\Excel31\Tests\Mixins;
 
-use Maatwebsite\Excel\Excel;
+use Chubb001\Excel31\Excel;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
+use Chubb001\Excel31\Tests\TestCase;
+use Chubb001\Excel31\Tests\Data\Stubs\Database\User;
 
 class StoreCollectionTest extends TestCase
 {

@@ -1,17 +1,17 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace Chubb001\Excel31\Tests\Concerns;
 
 use Throwable;
 use PHPUnit\Framework\Assert;
-use Maatwebsite\Excel\Tests\TestCase;
+use Chubb001\Excel31\Tests\TestCase;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\QueryException;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\SkipsErrors;
-use Maatwebsite\Excel\Concerns\SkipsOnError;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
+use Chubb001\Excel31\Concerns\ToModel;
+use Chubb001\Excel31\Concerns\Importable;
+use Chubb001\Excel31\Concerns\SkipsErrors;
+use Chubb001\Excel31\Concerns\SkipsOnError;
+use Chubb001\Excel31\Tests\Data\Stubs\Database\User;
 
 class SkipsOnErrorTest extends TestCase
 {

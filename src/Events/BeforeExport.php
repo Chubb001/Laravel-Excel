@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Events;
+namespace Chubb001\Excel31\Events;
 
-use Maatwebsite\Excel\Writer;
+use Chubb001\Excel31\Writer;
 
 class BeforeExport extends Event
 {

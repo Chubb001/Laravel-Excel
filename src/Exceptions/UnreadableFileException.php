@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Exceptions;
+namespace Chubb001\Excel31\Exceptions;
 
 use Exception;
 use Throwable;

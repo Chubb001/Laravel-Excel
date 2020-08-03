@@ -1,9 +1,9 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace Chubb001\Excel31\Tests\Data\Stubs;
 
 use Illuminate\Bus\Queueable;
-use Maatwebsite\Excel\Tests\TestCase;
+use Chubb001\Excel31\Tests\TestCase;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
 class AfterQueueExportJob implements ShouldQueue

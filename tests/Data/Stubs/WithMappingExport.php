@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace Chubb001\Excel31\Tests\Data\Stubs;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\WithMapping;
-use Maatwebsite\Excel\Concerns\FromCollection;
+use Chubb001\Excel31\Concerns\Exportable;
+use Chubb001\Excel31\Concerns\WithMapping;
+use Chubb001\Excel31\Concerns\FromCollection;
 
 class WithMappingExport implements FromCollection, WithMapping
 {

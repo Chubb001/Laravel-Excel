@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Jobs;
+namespace Chubb001\Excel31\Jobs;
 
-use Maatwebsite\Excel\Writer;
-use Maatwebsite\Excel\Files\TemporaryFile;
+use Chubb001\Excel31\Writer;
+use Chubb001\Excel31\Files\TemporaryFile;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
-use Maatwebsite\Excel\Concerns\WithMultipleSheets;
+use Chubb001\Excel31\Concerns\WithMultipleSheets;
 
 class QueueExport implements ShouldQueue
 {

@@ -1,16 +1,16 @@
 <?php
 
-namespace Maatwebsite\Excel\Imports;
+namespace Chubb001\Excel31\Imports;
 
 use Throwable;
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Model;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Concerns\SkipsOnError;
-use Maatwebsite\Excel\Concerns\WithValidation;
-use Maatwebsite\Excel\Validators\RowValidator;
-use Maatwebsite\Excel\Exceptions\RowSkippedException;
-use Maatwebsite\Excel\Validators\ValidationException;
+use Chubb001\Excel31\Concerns\ToModel;
+use Chubb001\Excel31\Concerns\SkipsOnError;
+use Chubb001\Excel31\Concerns\WithValidation;
+use Chubb001\Excel31\Validators\RowValidator;
+use Chubb001\Excel31\Exceptions\RowSkippedException;
+use Chubb001\Excel31\Validators\ValidationException;
 
 class ModelManager
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Helpers;
+namespace Chubb001\Excel31\Helpers;
 
 class CellHelper
 {

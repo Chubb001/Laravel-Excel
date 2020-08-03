@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace Chubb001\Excel31\Tests\Concerns;
 
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\Group;
-use Maatwebsite\Excel\Tests\Data\Stubs\AfterQueueExportJob;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromQueryWithCustomQuerySize;
+use Chubb001\Excel31\Tests\TestCase;
+use Chubb001\Excel31\Tests\Data\Stubs\Database\User;
+use Chubb001\Excel31\Tests\Data\Stubs\Database\Group;
+use Chubb001\Excel31\Tests\Data\Stubs\AfterQueueExportJob;
+use Chubb001\Excel31\Tests\Data\Stubs\FromQueryWithCustomQuerySize;
 
 class WithCustomQuerySizeTest extends TestCase
 {

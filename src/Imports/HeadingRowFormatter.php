@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Imports;
+namespace Chubb001\Excel31\Imports;
 
 use Illuminate\Support\Str;
 use InvalidArgumentException;

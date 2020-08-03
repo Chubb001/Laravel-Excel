@@ -1,17 +1,17 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace Chubb001\Excel31\Tests\Concerns;
 
 use Illuminate\Support\Facades\DB;
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\Group;
+use Chubb001\Excel31\Tests\TestCase;
+use Chubb001\Excel31\Tests\Data\Stubs\Database\User;
+use Chubb001\Excel31\Tests\Data\Stubs\Database\Group;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromUsersQueryExport;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromNonEloquentQueryExport;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromNestedArraysQueryExport;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromGroupUsersQueuedQueryExport;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromUsersQueryExportWithEagerLoad;
+use Chubb001\Excel31\Tests\Data\Stubs\FromUsersQueryExport;
+use Chubb001\Excel31\Tests\Data\Stubs\FromNonEloquentQueryExport;
+use Chubb001\Excel31\Tests\Data\Stubs\FromNestedArraysQueryExport;
+use Chubb001\Excel31\Tests\Data\Stubs\FromGroupUsersQueuedQueryExport;
+use Chubb001\Excel31\Tests\Data\Stubs\FromUsersQueryExportWithEagerLoad;
 
 class FromQueryTest extends TestCase
 {

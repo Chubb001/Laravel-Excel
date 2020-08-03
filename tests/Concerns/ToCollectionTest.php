@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace Chubb001\Excel31\Tests\Concerns;
 
 use PHPUnit\Framework\Assert;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\ToCollection;
+use Chubb001\Excel31\Tests\TestCase;
+use Chubb001\Excel31\Concerns\Importable;
+use Chubb001\Excel31\Concerns\ToCollection;
 
 class ToCollectionTest extends TestCase
 {

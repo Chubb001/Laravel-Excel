@@ -1,31 +1,31 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace Chubb001\Excel31;
 
 use Throwable;
 use InvalidArgumentException;
 use Illuminate\Support\Collection;
 use PhpOffice\PhpSpreadsheet\Cell\Cell;
-use Maatwebsite\Excel\Events\AfterImport;
+use Chubb001\Excel31\Events\AfterImport;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Events\BeforeImport;
-use Maatwebsite\Excel\Events\ImportFailed;
-use Maatwebsite\Excel\Files\TemporaryFile;
+use Chubb001\Excel31\Concerns\WithEvents;
+use Chubb001\Excel31\Events\BeforeImport;
+use Chubb001\Excel31\Events\ImportFailed;
+use Chubb001\Excel31\Files\TemporaryFile;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use PhpOffice\PhpSpreadsheet\Reader\IReader;
-use Maatwebsite\Excel\Factories\ReaderFactory;
+use Chubb001\Excel31\Factories\ReaderFactory;
 use PhpOffice\PhpSpreadsheet\Reader\Exception;
-use Maatwebsite\Excel\Concerns\WithChunkReading;
-use Maatwebsite\Excel\Files\TemporaryFileFactory;
-use Maatwebsite\Excel\Concerns\SkipsUnknownSheets;
-use Maatwebsite\Excel\Concerns\WithMultipleSheets;
-use Maatwebsite\Excel\Concerns\WithCustomValueBinder;
-use Maatwebsite\Excel\Concerns\WithCalculatedFormulas;
-use Maatwebsite\Excel\Transactions\TransactionHandler;
+use Chubb001\Excel31\Concerns\WithChunkReading;
+use Chubb001\Excel31\Files\TemporaryFileFactory;
+use Chubb001\Excel31\Concerns\SkipsUnknownSheets;
+use Chubb001\Excel31\Concerns\WithMultipleSheets;
+use Chubb001\Excel31\Concerns\WithCustomValueBinder;
+use Chubb001\Excel31\Concerns\WithCalculatedFormulas;
+use Chubb001\Excel31\Transactions\TransactionHandler;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
-use Maatwebsite\Excel\Exceptions\SheetNotFoundException;
-use Maatwebsite\Excel\Exceptions\NoTypeDetectedException;
+use Chubb001\Excel31\Exceptions\SheetNotFoundException;
+use Chubb001\Excel31\Exceptions\NoTypeDetectedException;
 
 class Reader
 {

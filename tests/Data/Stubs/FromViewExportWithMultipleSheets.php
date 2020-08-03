@@ -1,10 +1,10 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace Chubb001\Excel31\Tests\Data\Stubs;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\WithMultipleSheets;
+use Chubb001\Excel31\Concerns\Exportable;
+use Chubb001\Excel31\Concerns\WithMultipleSheets;
 
 class FromViewExportWithMultipleSheets implements WithMultipleSheets
 {

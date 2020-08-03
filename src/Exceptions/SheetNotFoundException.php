@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Exceptions;
+namespace Chubb001\Excel31\Exceptions;
 
 class SheetNotFoundException extends \Exception implements LaravelExcelException
 {

@@ -1,19 +1,19 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace Chubb001\Excel31\Tests\Concerns;
 
 use PHPUnit\Framework\Assert;
 use Illuminate\Validation\Rule;
-use Maatwebsite\Excel\Tests\TestCase;
+use Chubb001\Excel31\Tests\TestCase;
 use Illuminate\Database\Eloquent\Model;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Validators\Failure;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\SkipsFailures;
-use Maatwebsite\Excel\Concerns\SkipsOnFailure;
-use Maatwebsite\Excel\Concerns\WithValidation;
-use Maatwebsite\Excel\Concerns\WithBatchInserts;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
+use Chubb001\Excel31\Concerns\ToModel;
+use Chubb001\Excel31\Validators\Failure;
+use Chubb001\Excel31\Concerns\Importable;
+use Chubb001\Excel31\Concerns\SkipsFailures;
+use Chubb001\Excel31\Concerns\SkipsOnFailure;
+use Chubb001\Excel31\Concerns\WithValidation;
+use Chubb001\Excel31\Concerns\WithBatchInserts;
+use Chubb001\Excel31\Tests\Data\Stubs\Database\User;
 
 class SkipsOnFailureTest extends TestCase
 {

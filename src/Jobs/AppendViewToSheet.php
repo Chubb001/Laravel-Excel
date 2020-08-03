@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Jobs;
+namespace Chubb001\Excel31\Jobs;
 
 use Illuminate\Bus\Queueable;
-use Maatwebsite\Excel\Writer;
-use Maatwebsite\Excel\Concerns\FromView;
-use Maatwebsite\Excel\Files\TemporaryFile;
+use Chubb001\Excel31\Writer;
+use Chubb001\Excel31\Concerns\FromView;
+use Chubb001\Excel31\Files\TemporaryFile;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 

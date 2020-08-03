@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace Chubb001\Excel31\Tests\Concerns;
 
 use PHPUnit\Framework\Assert;
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Concerns\ToArray;
-use Maatwebsite\Excel\Concerns\Importable;
+use Chubb001\Excel31\Tests\TestCase;
+use Chubb001\Excel31\Concerns\ToArray;
+use Chubb001\Excel31\Concerns\Importable;
 
 class ToArrayTest extends TestCase
 {

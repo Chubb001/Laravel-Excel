@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Concerns;
+namespace Chubb001\Excel31\Concerns;
 
 interface WithLimit
 {

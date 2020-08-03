@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Facades;
+namespace Chubb001\Excel31\Facades;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Facade;
-use Maatwebsite\Excel\Fakes\ExcelFake;
-use Maatwebsite\Excel\Excel as BaseExcel;
+use Chubb001\Excel31\Fakes\ExcelFake;
+use Chubb001\Excel31\Excel as BaseExcel;
 use Illuminate\Foundation\Bus\PendingDispatch;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 

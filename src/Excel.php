@@ -1,13 +1,13 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace Chubb001\Excel31;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Files\Filesystem;
-use Maatwebsite\Excel\Files\TemporaryFile;
+use Chubb001\Excel31\Files\Filesystem;
+use Chubb001\Excel31\Files\TemporaryFile;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\PendingDispatch;
-use Maatwebsite\Excel\Helpers\FileTypeDetector;
+use Chubb001\Excel31\Helpers\FileTypeDetector;
 
 class Excel implements Exporter, Importer
 {

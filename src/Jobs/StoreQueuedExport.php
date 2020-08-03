@@ -1,10 +1,10 @@
 <?php
 
-namespace Maatwebsite\Excel\Jobs;
+namespace Chubb001\Excel31\Jobs;
 
 use Illuminate\Bus\Queueable;
-use Maatwebsite\Excel\Files\Filesystem;
-use Maatwebsite\Excel\Files\TemporaryFile;
+use Chubb001\Excel31\Files\Filesystem;
+use Chubb001\Excel31\Files\TemporaryFile;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
 class StoreQueuedExport implements ShouldQueue

@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Transactions;
+namespace Chubb001\Excel31\Transactions;
 
 use Illuminate\Database\ConnectionInterface;
 

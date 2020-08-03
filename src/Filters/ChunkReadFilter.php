@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Filters;
+namespace Chubb001\Excel31\Filters;
 
 use PhpOffice\PhpSpreadsheet\Reader\IReadFilter;
 

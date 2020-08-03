@@ -1,24 +1,24 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace Chubb001\Excel31;
 
 use Traversable;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Jobs\CloseSheet;
-use Maatwebsite\Excel\Jobs\QueueExport;
-use Maatwebsite\Excel\Concerns\FromView;
-use Maatwebsite\Excel\Concerns\FromQuery;
-use Maatwebsite\Excel\Files\TemporaryFile;
-use Maatwebsite\Excel\Jobs\SerializedQuery;
-use Maatwebsite\Excel\Jobs\AppendDataToSheet;
-use Maatwebsite\Excel\Jobs\AppendViewToSheet;
-use Maatwebsite\Excel\Jobs\StoreQueuedExport;
-use Maatwebsite\Excel\Concerns\FromCollection;
-use Maatwebsite\Excel\Jobs\AppendQueryToSheet;
-use Maatwebsite\Excel\Files\TemporaryFileFactory;
-use Maatwebsite\Excel\Concerns\WithMultipleSheets;
-use Maatwebsite\Excel\Concerns\WithCustomChunkSize;
-use Maatwebsite\Excel\Concerns\WithCustomQuerySize;
+use Chubb001\Excel31\Jobs\CloseSheet;
+use Chubb001\Excel31\Jobs\QueueExport;
+use Chubb001\Excel31\Concerns\FromView;
+use Chubb001\Excel31\Concerns\FromQuery;
+use Chubb001\Excel31\Files\TemporaryFile;
+use Chubb001\Excel31\Jobs\SerializedQuery;
+use Chubb001\Excel31\Jobs\AppendDataToSheet;
+use Chubb001\Excel31\Jobs\AppendViewToSheet;
+use Chubb001\Excel31\Jobs\StoreQueuedExport;
+use Chubb001\Excel31\Concerns\FromCollection;
+use Chubb001\Excel31\Jobs\AppendQueryToSheet;
+use Chubb001\Excel31\Files\TemporaryFileFactory;
+use Chubb001\Excel31\Concerns\WithMultipleSheets;
+use Chubb001\Excel31\Concerns\WithCustomChunkSize;
+use Chubb001\Excel31\Concerns\WithCustomQuerySize;
 
 class QueuedWriter
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace Chubb001\Excel31;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\ToArray;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Concerns\ToCollection;
-use Maatwebsite\Excel\Concerns\WithMappedCells;
+use Chubb001\Excel31\Concerns\ToArray;
+use Chubb001\Excel31\Concerns\ToModel;
+use Chubb001\Excel31\Concerns\ToCollection;
+use Chubb001\Excel31\Concerns\WithMappedCells;
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
-use Maatwebsite\Excel\Concerns\WithCalculatedFormulas;
+use Chubb001\Excel31\Concerns\WithCalculatedFormulas;
 
 class MappedReader
 {

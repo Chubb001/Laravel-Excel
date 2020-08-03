@@ -1,10 +1,10 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace Chubb001\Excel31\Tests\Concerns;
 
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Concerns\FromArray;
-use Maatwebsite\Excel\Concerns\Exportable;
+use Chubb001\Excel31\Tests\TestCase;
+use Chubb001\Excel31\Concerns\FromArray;
+use Chubb001\Excel31\Concerns\Exportable;
 
 class FromArrayTest extends TestCase
 {

@@ -1,18 +1,18 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace Chubb001\Excel31;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
-use Maatwebsite\Excel\Files\Filesystem;
-use Maatwebsite\Excel\Mixins\StoreCollection;
-use Maatwebsite\Excel\Console\ExportMakeCommand;
-use Maatwebsite\Excel\Console\ImportMakeCommand;
-use Maatwebsite\Excel\Mixins\DownloadCollection;
-use Maatwebsite\Excel\Files\TemporaryFileFactory;
+use Chubb001\Excel31\Files\Filesystem;
+use Chubb001\Excel31\Mixins\StoreCollection;
+use Chubb001\Excel31\Console\ExportMakeCommand;
+use Chubb001\Excel31\Console\ImportMakeCommand;
+use Chubb001\Excel31\Mixins\DownloadCollection;
+use Chubb001\Excel31\Files\TemporaryFileFactory;
 use Laravel\Lumen\Application as LumenApplication;
-use Maatwebsite\Excel\Transactions\TransactionHandler;
-use Maatwebsite\Excel\Transactions\TransactionManager;
+use Chubb001\Excel31\Transactions\TransactionHandler;
+use Chubb001\Excel31\Transactions\TransactionManager;
 
 class ExcelServiceProvider extends ServiceProvider
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace Chubb001\Excel31;
 
-use Maatwebsite\Excel\Events\Event;
-use Maatwebsite\Excel\Events\AfterSheet;
-use Maatwebsite\Excel\Events\BeforeSheet;
-use Maatwebsite\Excel\Events\BeforeExport;
-use Maatwebsite\Excel\Events\BeforeWriting;
+use Chubb001\Excel31\Events\Event;
+use Chubb001\Excel31\Events\AfterSheet;
+use Chubb001\Excel31\Events\BeforeSheet;
+use Chubb001\Excel31\Events\BeforeExport;
+use Chubb001\Excel31\Events\BeforeWriting;
 
 trait RegistersCustomConcerns
 {

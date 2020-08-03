@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Console;
+namespace Chubb001\Excel31\Console;
 
 use Illuminate\Console\GeneratorCommand;
 use Symfony\Component\Console\Input\InputOption;

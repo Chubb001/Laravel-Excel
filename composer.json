@@ -1,5 +1,5 @@
 {
-  "name": "maatwebsite/excel",
+  "name": "chubb001/excel31",
   "description": "Supercharged Excel exports and imports in Laravel",
   "license": "MIT",
   "keywords": [
@@ -35,21 +35,21 @@
   },
   "autoload": {
     "psr-4": {
-      "Maatwebsite\\Excel\\": "src/"
+      "Chubb001\\Excel31\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Maatwebsite\\Excel\\Tests\\": "tests/"
+      "Chubb001\Excel31\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Maatwebsite\\Excel\\ExcelServiceProvider"
+        "Chubb001\Excel31\\ExcelServiceProvider"
       ],
       "aliases": {
-        "Excel": "Maatwebsite\\Excel\\Facades\\Excel"
+        "Excel": "Chubb001\Excel31\\Facades\\Excel"
       }
     }
   },

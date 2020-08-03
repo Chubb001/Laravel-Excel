@@ -1,17 +1,17 @@
 <?php
 
-namespace Maatwebsite\Excel\Factories;
+namespace Chubb001\Excel31\Factories;
 
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Writer\Csv;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Html;
-use Maatwebsite\Excel\Concerns\WithCharts;
+use Chubb001\Excel31\Concerns\WithCharts;
 use PhpOffice\PhpSpreadsheet\Writer\IWriter;
-use Maatwebsite\Excel\Concerns\MapsCsvSettings;
-use Maatwebsite\Excel\Concerns\WithMultipleSheets;
-use Maatwebsite\Excel\Concerns\WithCustomCsvSettings;
-use Maatwebsite\Excel\Concerns\WithPreCalculateFormulas;
+use Chubb001\Excel31\Concerns\MapsCsvSettings;
+use Chubb001\Excel31\Concerns\WithMultipleSheets;
+use Chubb001\Excel31\Concerns\WithCustomCsvSettings;
+use Chubb001\Excel31\Concerns\WithPreCalculateFormulas;
 
 class WriterFactory
 {

@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use Maatwebsite\Excel\Concerns\FromCollection;
+use Chubb001\Excel31\Concerns\FromCollection;
 
 class DummyClass implements FromCollection
 {

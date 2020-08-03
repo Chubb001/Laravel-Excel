@@ -1,6 +1,6 @@
 <?php
 
-use Maatwebsite\Excel\Excel;
+use Chubb001\Excel31\Excel;
 
 return [
 
@@ -129,7 +129,7 @@ return [
         | you can implement your own default value binder.
         |
         */
-        'default' => Maatwebsite\Excel\DefaultValueBinder::class,
+        'default' => Chubb001\Excel31\DefaultValueBinder::class,
     ],
 
     'transactions' => [

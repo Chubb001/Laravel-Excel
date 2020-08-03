@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests;
+namespace Chubb001\Excel31\Tests;
 
-use Maatwebsite\Excel\Excel;
+use Chubb001\Excel31\Excel;
 
 class ExcelServiceProviderTest extends TestCase
 {

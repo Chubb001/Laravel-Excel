@@ -1,18 +1,18 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace Chubb001\Excel31\Tests\Concerns;
 
 use PHPUnit\Framework\Assert;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Concerns\ToArray;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\SkipsUnknownSheets;
-use Maatwebsite\Excel\Concerns\WithMultipleSheets;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Tests\Data\Stubs\SheetWith100Rows;
-use Maatwebsite\Excel\Tests\Data\Stubs\SheetForUsersFromView;
+use Chubb001\Excel31\Tests\TestCase;
+use Chubb001\Excel31\Concerns\ToArray;
+use Chubb001\Excel31\Concerns\Exportable;
+use Chubb001\Excel31\Concerns\Importable;
+use Chubb001\Excel31\Concerns\SkipsUnknownSheets;
+use Chubb001\Excel31\Concerns\WithMultipleSheets;
+use Chubb001\Excel31\Tests\Data\Stubs\Database\User;
+use Chubb001\Excel31\Tests\Data\Stubs\SheetWith100Rows;
+use Chubb001\Excel31\Tests\Data\Stubs\SheetForUsersFromView;
 
 class WithMultipleSheetsTest extends TestCase
 {
@@ -103,7 +103,7 @@ class WithMultipleSheetsTest extends TestCase
      */
     public function unknown_sheet_index_will_throw_sheet_not_found_exception()
     {
-        $this->expectException(\Maatwebsite\Excel\Exceptions\SheetNotFoundException::class);
+        $this->expectException(\Chubb001\Excel31\Exceptions\SheetNotFoundException::class);
         $this->expectExceptionMessage('Your requested sheet index: 9999 is out of bounds. The actual number of sheets is 2.');
 
         $import = new class implements WithMultipleSheets {
@@ -126,7 +126,7 @@ class WithMultipleSheetsTest extends TestCase
      */
     public function unknown_sheet_name_will_throw_sheet_not_found_exception()
     {
-        $this->expectException(\Maatwebsite\Excel\Exceptions\SheetNotFoundException::class);
+        $this->expectException(\Chubb001\Excel31\Exceptions\SheetNotFoundException::class);
         $this->expectExceptionMessage('Your requested sheet name [Some Random Sheet Name] is out of bounds.');
 
         $import = new class implements WithMultipleSheets {

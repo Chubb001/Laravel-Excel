@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests;
+namespace Chubb001\Excel31\Tests;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Tests\Data\Stubs\AfterQueueExportJob;
-use Maatwebsite\Excel\Tests\Data\Stubs\SheetForUsersFromView;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromViewExportWithMultipleSheets;
+use Chubb001\Excel31\Tests\Data\Stubs\Database\User;
+use Chubb001\Excel31\Tests\Data\Stubs\AfterQueueExportJob;
+use Chubb001\Excel31\Tests\Data\Stubs\SheetForUsersFromView;
+use Chubb001\Excel31\Tests\Data\Stubs\FromViewExportWithMultipleSheets;
 
 class QueuedViewExportTest extends TestCase
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace Chubb001\Excel31\Tests\Concerns;
 
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Tests\Data\Stubs\QueuedExport;
-use Maatwebsite\Excel\Tests\Data\Stubs\SheetWith100Rows;
+use Chubb001\Excel31\Tests\TestCase;
+use Chubb001\Excel31\Tests\Data\Stubs\QueuedExport;
+use Chubb001\Excel31\Tests\Data\Stubs\SheetWith100Rows;
 
 class FromCollectionTest extends TestCase
 {

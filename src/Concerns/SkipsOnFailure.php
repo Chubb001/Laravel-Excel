@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Concerns;
+namespace Chubb001\Excel31\Concerns;
 
-use Maatwebsite\Excel\Validators\Failure;
+use Chubb001\Excel31\Validators\Failure;
 
 interface SkipsOnFailure
 {

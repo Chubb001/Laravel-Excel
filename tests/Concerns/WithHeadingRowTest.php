@@ -1,15 +1,15 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace Chubb001\Excel31\Tests\Concerns;
 
 use PHPUnit\Framework\Assert;
-use Maatwebsite\Excel\Tests\TestCase;
+use Chubb001\Excel31\Tests\TestCase;
 use Illuminate\Database\Eloquent\Model;
-use Maatwebsite\Excel\Concerns\ToArray;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\WithHeadingRow;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
+use Chubb001\Excel31\Concerns\ToArray;
+use Chubb001\Excel31\Concerns\ToModel;
+use Chubb001\Excel31\Concerns\Importable;
+use Chubb001\Excel31\Concerns\WithHeadingRow;
+use Chubb001\Excel31\Tests\Data\Stubs\Database\User;
 
 class WithHeadingRowTest extends TestCase
 {

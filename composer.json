@@ -40,16 +40,16 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Chubb001\Excel31\\Tests\\": "tests/"
+      "Chubb001\\Excel31\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Chubb001\Excel31\\ExcelServiceProvider"
+        "Chubb001\\Excel31\\ExcelServiceProvider"
       ],
       "aliases": {
-        "Excel": "Chubb001\Excel31\\Facades\\Excel"
+        "Excel": "Chubb001\\Excel31\\Facades\\Excel"
       }
     }
   },
